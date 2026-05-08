@@ -35,7 +35,7 @@ function App() {
     {renderizar()}
     </>
   )
-}
+} 
 
 export default App
 
