@@ -13,14 +13,14 @@ function App() {
 
   const renderizar = () => {
     if(tela === 'Login'){
-      return <Login/>
+      return <Login navegar={trocarDeTela}/>
     } else if(tela === 'cadastro'){
-      return <Cadastro/>
+      return <Cadastro navegar={trocarDeTela}/>
     } else if(tela === 'usuarios'){
-      return <Usuarios/>
+      return <Usuarios navegar={trocarDeTela}/>
     }
     else{
-      return <Login/>
+      return <Login navegar={trocarDeTela}/>
     }
   }
 
